@@ -604,7 +604,7 @@ def get_jar_info():
     try:
         java_path, jar_path = cache['jar_info']
     except KeyError:
-        java_path = which('java')
+        java_path = "/usr/lib/jvm/java-8-openjdk/bin/java"
         if not java_path:
             raise JavaError("can't find Java")
         dir_name = get_directory()
