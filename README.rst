@@ -60,15 +60,11 @@ Installation
 
 To install via pip::
 
-    $ pip install --upgrade language-check
+    $ pip install --upgrade https://github.com/MrEnessHS/language-check.git
 
 If you are using Python 2, you'll need to install 3to2 beforehand::
 
     $ pip install --upgrade 3to2
-
-To overwrite the host part of URL that is used to download LanguageTool-{version}.zip::
-
-    - SET LANGUAGE_CHECK_DOWNLOAD_HOST = [alternate URL]
 
 
 Prerequisites
@@ -78,6 +74,9 @@ Prerequisites
 - `lib3to2 <https://bitbucket.org/amentajo/lib3to2>`_
   (if installing for Python 2)
 - `LanguageTool <https://www.languagetool.org>`_ (Java 6.0+)
+- `curl`
+- `unzip`
+- `Any Linux distro`
 
 
 The installation process should take care of downloading LanguageTool (it may
