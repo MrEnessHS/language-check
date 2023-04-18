@@ -3,11 +3,7 @@ language-check
 
 Python wrapper for LanguageTool.
 
-.. image:: https://travis-ci.org/myint/language-check.svg?branch=master
-    :target: https://travis-ci.org/myint/language-check
-    :alt: Build status
-
-This is a fork of
+This is a fork of a fork of
 https://bitbucket.org/spirit/language_tool that produces more easily parsable
 results from the command-line.
 
