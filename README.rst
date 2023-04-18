@@ -72,7 +72,7 @@ Prerequisites
 - `LanguageTool <https://www.languagetool.org>`_ (Java 6.0+)
 - `curl`
 - `unzip`
-- `OpenJDK Java 8(if not your default java version, add "JAVA_HOME=/usr/lib/jvm/java-8-openjdk/" variable before run it")`
+- `OpenJDK Java 8(if not your default java version, add ``JAVA_HOME=/usr/lib/jvm/java-8-openjdk/`` variable before run it")`
 - `Any Linux distro`
 
 
