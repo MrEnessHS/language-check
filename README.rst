@@ -70,7 +70,7 @@ Prerequisites
 - `lib3to2 <https://bitbucket.org/amentajo/lib3to2>`_
   (if installing for Python 2)
 - `LanguageTool <https://www.languagetool.org>`_ (Java 6.0+)
-- `curl`
+- `wget`
 - `unzip`
 - `OpenJDK Java 8(if not your default java version, add "JAVA_HOME=/usr/lib/jvm/java-8-openjdk/" variable before run it")`
 - `Any Linux distro`
