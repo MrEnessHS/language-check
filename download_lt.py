@@ -164,4 +164,5 @@ def download_lt(update=False):
 
 
 if __name__ == '__main__':
-    sys.exit(download_lt(update=True))
+    #Remove downnloading for safety
+    print("ok")
