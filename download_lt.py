@@ -10,7 +10,7 @@ if __name__ == '__main__':
         raise Exception('Wget is not installed')
     if not os.path.exists('/usr/bin/unzip'):
         raise Exception('Unzip is not installed')
-    if not os.path.exists('LanguageTool-3.2.zip')
+    if not os.path.exists('LanguageTool-3.2.zip'):
         os.system("wget https://www.languagetool.org/download/LanguageTool-3.2.zip")
     os.system("rm -rf LanguageTool-3.2")
     os.system("unzip LanguageTool-3.2.zip")
