@@ -14,7 +14,7 @@ def download_lt():
         os.system("wget https://www.languagetool.org/download/LanguageTool-3.2.zip")
     os.system("rm -rf LanguageTool-3.2")
     os.system("unzip LanguageTool-3.2.zip")
-    os.system("cp -r LanguageTool-3.2 language_tool")
+    os.system("cp -r LanguageTool-3.2 language_check")
 
 if __name__ == "__main__":
     download_lt()
