@@ -3,7 +3,7 @@
 """Download latest LanguageTool distribution."""
 import os
 
-if __name__ == '__main__':
+def download_lt():
     if not os.name == 'posix':
         raise Exception('This fork is only for Linux')
     if not os.path.exists('/usr/bin/wget'):
@@ -15,3 +15,6 @@ if __name__ == '__main__':
     os.system("rm -rf LanguageTool-3.2")
     os.system("unzip LanguageTool-3.2.zip")
     os.system("cp -r LanguageTool-3.2 language_tool")
+
+if __name__ == "__main__":
+    download_lt()
